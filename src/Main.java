@@ -29,13 +29,13 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Inheritance Tests - 1!");
-        A a = new B("b");
-        a.doSmth();
+        A a = new B("b"); // B b
+        a.doSmth();         // B
 
 
         System.out.println("Inheritance Tests - 2!");
-        A a1 = new A ("b");
-        a1.doSmth();
+        A a1 = new A ("b"); // A b
+        a1.doSmth();          // A
 
         //Impossible to cast A to B
 //        System.out.println("Inheritance Tests - 3!");
@@ -43,8 +43,8 @@ public class Main {
 //        a2.doSmth();
 
         System.out.println("Inheritance Tests - 4!");
-        B a3 = new B ("c");
-        a3.doSmth();
+        B a3 = new B ("c"); // B c
+        a3.doSmth();          // B
 
     }
 }
