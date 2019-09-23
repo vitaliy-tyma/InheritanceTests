@@ -130,6 +130,63 @@ Do something other from B
         //B ba = new A();     //Is not possible
 /////////////////////////////////////////////////////////
     }
+/*
 
+
+
+
+Inheritance Tests - 1!
+
+B b
+
+B
+
+Inheritance Tests - 2!
+
+A a
+
+A
+
+Inheritance Tests - 4!
+
+B b
+
+B
+
+B
+
+Do something other from A
+
+Do something other from B
+
+************* ANOTHER CHECK!*************
+
+**** A aa = new A();
+
+A
+
+Do something other from A
+
+**** A ab = new B();
+
+B
+
+B
+
+Do something other from A
+
+**** B bb = new B();
+
+B
+
+B
+
+Do something other from A
+
+Do something other from B
+
+
+
+*/
 }
 
